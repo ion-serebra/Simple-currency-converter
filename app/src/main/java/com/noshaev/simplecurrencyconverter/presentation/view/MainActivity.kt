@@ -1,18 +1,17 @@
-package com.noshaev.simplecurrencyconverter.presentation
+package com.noshaev.simplecurrencyconverter.presentation.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.noshaev.simplecurrencyconverter.R
-import com.noshaev.simplecurrencyconverter.ui.currency.CurrencyFragment
 
-class CurrencyActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.currency_activity)
+        setContentView(R.layout.screen_main)
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.container, CurrencyFragment.newInstance())
+                .replace(R.id.container, CurrenciesListFragment.newInstance())
                 .commitNow()
         }
     }

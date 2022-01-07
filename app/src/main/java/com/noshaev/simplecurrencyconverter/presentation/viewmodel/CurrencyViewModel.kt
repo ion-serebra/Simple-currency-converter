@@ -1,4 +1,4 @@
-package com.noshaev.simplecurrencyconverter.ui.currency
+package com.noshaev.simplecurrencyconverter.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 
