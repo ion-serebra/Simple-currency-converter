@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ConstraintModes -->
+    <style name="ConstraintsCenterVertical">
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+    <!-- ConstraintModes -->
+
+    <!-- Fonts -->
+    <style name="Font16DarkNormal">
+        <item name="android:textColor">@color/font_dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Font14DarkNormal">
+        <item name="android:textColor">@color/font_dark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Font16DarkItalic">
+        <item name="android:textColor">@color/font_dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Font14DarkItalic">
+        <item name="android:textColor">@color/font_dark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Font16DarkNormal.ConstrainedVertical">
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+
+    <style name="Font14DarkNormal.ConstrainedVertical">
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+
+    <style name="Font16DarkItalic.ConstrainedVertical">
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+
+    <style name="Font14DarkItalic.ConstrainedVertical">
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+    <!-- Fonts -->
+
+</resources>
