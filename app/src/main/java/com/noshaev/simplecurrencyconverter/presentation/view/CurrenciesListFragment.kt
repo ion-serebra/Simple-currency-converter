@@ -11,6 +11,7 @@ import by.kirich1409.viewbindingdelegate.viewBinding
 import com.noshaev.simplecurrencyconverter.R
 import com.noshaev.simplecurrencyconverter.databinding.ScreenCurrenciesListBinding
 import com.noshaev.simplecurrencyconverter.presentation.viewmodel.CurrencyViewModel
+import javax.inject.Inject
 
 class CurrenciesListFragment : Fragment(R.layout.screen_currencies_list) {
 
@@ -18,7 +19,8 @@ class CurrenciesListFragment : Fragment(R.layout.screen_currencies_list) {
         fun newInstance() = CurrenciesListFragment()
     }
 
-    private lateinit var viewModel: CurrencyViewModel
+    @Inject
+    lateinit var viewModel: CurrencyViewModel
     private val binding: ScreenCurrenciesListBinding by viewBinding()
     private val adapter = CurrenciesAdapter()
 
