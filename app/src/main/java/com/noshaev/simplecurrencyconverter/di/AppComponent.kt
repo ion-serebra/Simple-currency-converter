@@ -12,6 +12,7 @@ import dagger.android.AndroidInjector
     modules = [
         CurrenciesScreenModule::class,
         NetworkModule::class,
+        CurrenciesModule::class
     ]
 )
 interface AppComponent: AndroidInjector<CurrenciesApplication> {
